@@ -245,11 +245,11 @@ li{
 
 /* for mobile view */
 
-@media(max-width:732px){
+@media(max-width:768px){
 
 .form{
 
-background-color: rgba(26, 20, 18, 1);
+	background-color:#191414;;
 
 border: none;
 
