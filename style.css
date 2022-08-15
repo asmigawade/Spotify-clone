@@ -1,0 +1,288 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	width:100%;
+	height:100vh;
+	background-color:#191414;
+}
+nav{
+	
+	width:100%;
+	height: 13vh;
+	background:black;
+	color: white;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	
+}
+h1{
+	font-size: 160%;
+	font-weight:30px;
+	color:white;
+}
+
+
+nav .logo{
+	width: 50%;
+	display:flex;
+	font-weight:30px;
+	padding:25px;
+	
+}
+
+nav .menu{
+	width: 40%;
+	display:flex;
+	justify-content: space-around;
+	font-weight: bolder;
+	font-size:120%;
+}
+nav .menu a{
+	width:5%;
+	text-decoration:none;
+	color:white;
+	display:flex;
+	justify-content: space-around;
+}
+
+
+h2{
+	color:white;
+	padding:5px 10px 5px 20px;
+	font-size:15px;
+	
+	
+}
+h3{
+	color:white;
+	font-size:15px;
+	padding:8px;	
+}
+
+section .side{
+	display:flex;
+	justify-content: space-around;
+	transform:translate(-10%,-200%);
+	}
+ section .corner{
+	padding:20px 5px 20px 5px;
+	}
+ 
+.login-box{
+	position:absolute;
+	top:45%;
+	left:42%;
+	background:white;
+	box-sizing:border-box;
+	flex-wrap:wrap;
+	width:500px;
+	height:470px;
+	transform:translate(28%,-37%);
+	padding:20px 20px;
+	border-radius:5px;
+	
+	
+}
+.login-box .user-box{
+	position:relative;
+	
+}
+label{
+	font-size:18px;
+	color:black;
+	font-weight:boldest;
+
+}
+
+.login-box .user-box input{
+	width:100%;
+	padding:10px 10px 10px 10px;
+	font-size:14px;
+	color:black;
+	margin-bottom:40px;
+    margin-left:40px;
+    margin-right:40px;
+	border:black;
+	border:1px solid grey;
+	border-radius:5px;
+	outline:none;
+	background:transparent;
+	width:70%;
+	display:flex;
+	justify-content:center;
+	
+	
+}
+.login-box .user-box label{
+	position:absolute;
+	top:-30px;
+	left:-10px;
+	margin-bottom:40px;
+	margin-left:40px;
+    margin-right:40px;
+	margin-top:-5px;
+	padding:10px 10px;
+	font-size:14px;
+	font-weight:80%;
+	
+}
+
+.login-box .user-box label h4{
+	margin-top:4px;
+	font-weight:80%;
+	color:black;
+	
+
+}
+
+
+.login-box form a{
+	position:relative;
+	font-size:11px;
+	color:black;
+	margin-top:40px;
+	color:#1DB954;
+	
+
+}
+.login-box .button a{
+	position:relative;
+	font-size:120%;
+	font-weight:bolder;
+	color:black;
+	margin-top:20px;
+	background-color:#1DB954;
+	text-decoration:none;
+	border-radius:30px;
+	display: flex;
+	justify-content:center;
+	padding:8px;
+	width:50%;
+	
+}
+.login-box .button{
+	display: flex;
+	justify-content:center;
+	padding-top:-20px;
+	text-align:center;
+}
+
+
+.down{
+	display: flex;
+	justify-content:center;
+}
+
+
+h3{
+	color:white;
+	font-size:20px;
+	font-weight:boldest;
+	
+}
+
+
+h4{
+	color:black;
+	font-size:15px;
+	align-items:center;
+	
+}
+h6{
+	color:black;
+
+	text-align:center;
+	
+}
+footer{
+ width:100%;
+  height:40vh;
+  background:black;
+  top:0;
+  bottom:0;
+}
+footer .container{
+
+  margin: auto;
+  padding: 10px;
+  display:flex;
+  justify-content: space-around;
+}
+footer .container a{
+  color: #fff;
+  text-decoration:none;
+  
+}
+
+footer .container  .line1{
+	display: flex;
+	justify-content:center;
+}
+
+footer .container  .line2{
+	display: flex;
+	justify-content:left;
+}
+
+footer .pic{
+	padding:20px;
+	transform:translate(-10%,-1%);
+	}
+li{
+	display: flex;
+	justify-content:center;
+}
+
+
+
+
+
+/* for mobile view */
+
+@media(max-width:732px){
+
+.form{
+
+background-color: rgba(26, 20, 18, 1);
+
+border: none;
+
+position: relative;
+
+} .names{
+
+display: none;
+
+}
+
+main{
+
+height: 430px
+
+}
+
+
+
+
+/* for mobile */
+
+@media(max-width:448px){
+
+main button{ margin-left: 5px;
+
+position: relative;
+
+top: 30px; padding: 2vh 10vh 2vh 10vh;
+
+} .fillform
+
+display: none;
+
+}
+
