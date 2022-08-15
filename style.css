@@ -76,8 +76,7 @@ section .side{
  
 .login-box{
 	position:absolute;
-	top:20%;
-	left:60%;
+	transform:translate(150%,-110%);
 	background:white;
 	box-sizing:border-box;
 	flex-wrap:wrap;
